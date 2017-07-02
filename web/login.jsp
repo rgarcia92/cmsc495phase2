@@ -30,7 +30,7 @@
         </header>
         <main>
             <form action="${pageContext.request.contextPath}/loginAuthenticate.jsp" method="post">
-                <h3>Username: <input type="email" name="username" required /></h3>
+                <h3>Username: <input type="text" name="username" required /></h3>
                 <h3>Password: <input type="password" name="password" required /></h3>
                 <input type="submit" />
             </form>
